@@ -10,7 +10,7 @@ class Home  implements ActionListener{
 
     JFrame f;
     JLabel l1,l2;
-    JButton b1,b2,b3,b4,b5,b6;
+    JButton b1,b2,b3,b5,b6;
 
     Home(){
         f=new JFrame("HOME PAGE");
@@ -55,13 +55,13 @@ class Home  implements ActionListener{
     	b3.setBackground(new Color(255,255,255));
         l1.add(b3);
 
-        b4=new JButton("About");
-        b4.setBounds(530,140,120,40);
-        b4.setFont(new Font("serif",Font.BOLD,15));
-        b4.addActionListener(this);
-        b4.setForeground(new Color(0,0,0));
-    	b4.setBackground(new Color(255,255,255));
-        l1.add(b4);
+//        b4=new JButton("About");
+//        b4.setBounds(530,140,120,40);
+//        b4.setFont(new Font("serif",Font.BOLD,15));
+//        b4.addActionListener(this);
+//        b4.setForeground(new Color(0,0,0));
+//    	b4.setBackground(new Color(255,255,255));
+//        l1.add(b4);
         
        /* b5=new JButton(" Contact-Us ");
         b5.setBounds(420,200,100,40);
@@ -98,10 +98,10 @@ class Home  implements ActionListener{
             new attendancebox();
         }
         
-        if(ae.getSource()==b4){
-            f.setVisible(false);
-            new AboutUs().setVisible(true);	
-        }
+//        if(ae.getSource()==b4){
+//            f.setVisible(false);
+//            new AboutUs().setVisible(true);	
+//        }
         
        /* if(ae.getSource()==b5){
             f.setVisible(false);
